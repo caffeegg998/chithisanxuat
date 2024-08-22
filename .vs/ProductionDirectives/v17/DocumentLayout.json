@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\source\\repos\\productiondirectives\\productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\source\\repos\\productiondirectives\\productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\productiondirectives\\forms\\user controls\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\productiondirectives\\forms\\user controls\\chithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\chithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\source\\repos\\productiondirectives\\productiondirectives\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\source\\repos\\productiondirectives\\productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\source\\repos\\productiondirectives\\productiondirectives\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\productiondirectives\\forms\\user controls\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\source\\repos\\productiondirectives\\productiondirectives\\productiondirectives.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\productiondirectives.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 304,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyChiThi.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:42:10.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyChiThi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:13:35.428Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChiThiSanXuat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:53:58.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\app.manifest",
+              "RelativeDocumentMoniker": "ProductionDirectives\\app.manifest",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\app.manifest",
+              "RelativeToolTip": "ProductionDirectives\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-08-21T15:50:17.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Dashboard.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Dashboard.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:19:45.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Login.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\Login.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Login.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:59:12.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\MainForm.cs",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\MainForm.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:52:35.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductionDirectives.csproj",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\ProductionDirectives.csproj",
+              "RelativeDocumentMoniker": "ProductionDirectives\\ProductionDirectives.csproj",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\ProductionDirectives.csproj",
+              "RelativeToolTip": "ProductionDirectives\\ProductionDirectives.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-21T14:46:53.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:46:02.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Program.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Program.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Program.cs",
+              "RelativeToolTip": "ProductionDirectives\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:44:51.91Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
