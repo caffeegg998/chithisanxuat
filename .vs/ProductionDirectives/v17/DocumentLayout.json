@@ -1,0 +1,348 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\services\\implements\\implementchithisanxuatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\services\\implements\\implementchithisanxuatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\models\\chithimau_chitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\models\\chithimau_chitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\services\\interfaces\\ichithisanxuatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\services\\interfaces\\ichithisanxuatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\repository\\implements\\implementchithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\repository\\implements\\implementchithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\repository\\interfaces\\ichithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\repository\\interfaces\\ichithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\quanlychithi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\models\\chithimau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\models\\chithimau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\forms\\user controls\\quanlychithi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\quanlychithi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\productiondirectives\\forms\\user controls\\chithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\chithisanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\migrations\\20240824103234_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\migrations\\20240824103234_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\dbcontexts\\productiondirectivesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\dbcontexts\\productiondirectivesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\productiondirectives\\forms\\user controls\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\productiondirectives\\forms\\user controls\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\forms\\user controls\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|c:\\users\\onedi\\onedrive\\desktop\\chithisanxuat-dev\\productiondirectives\\productiondirectives.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D10BCD9-6868-42E9-910E-42739F5296C9}|ProductionDirectives\\ProductionDirectives.csproj|solutionrelative:productiondirectives\\productiondirectives.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 304,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\StartUp.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\StartUp.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\StartUp.cs",
+              "RelativeToolTip": "ProductionDirectives\\StartUp.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvyAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:36:45.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImplementChithisanxuatService.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Services\\Implements\\ImplementChithisanxuatService.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Services\\Implements\\ImplementChithisanxuatService.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Services\\Implements\\ImplementChithisanxuatService.cs",
+              "RelativeToolTip": "ProductionDirectives\\Services\\Implements\\ImplementChithisanxuatService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA1wDEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:28:02.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyChiThi.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAJ4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:42:10.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuanLyChiThi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:13:35.428Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\MainForm.cs",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\MainForm.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBMAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:52:35.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiThiMau_ChiTiet.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Models\\ChiThiMau_ChiTiet.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Models\\ChiThiMau_ChiTiet.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Models\\ChiThiMau_ChiTiet.cs",
+              "RelativeToolTip": "ProductionDirectives\\Models\\ChiThiMau_ChiTiet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:32:15.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IChiThiSanXuat.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Repository\\Interfaces\\IChiThiSanXuat.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Repository\\Interfaces\\IChiThiSanXuat.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Repository\\Interfaces\\IChiThiSanXuat.cs",
+              "RelativeToolTip": "ProductionDirectives\\Repository\\Interfaces\\IChiThiSanXuat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:06:15.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImplementChiThiSanXuat.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Repository\\Implements\\ImplementChiThiSanXuat.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Repository\\Implements\\ImplementChiThiSanXuat.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Repository\\Implements\\ImplementChiThiSanXuat.cs",
+              "RelativeToolTip": "ProductionDirectives\\Repository\\Implements\\ImplementChiThiSanXuat.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T14:46:55.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IChithisanxuatService.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Services\\Interfaces\\IChithisanxuatService.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Services\\Interfaces\\IChithisanxuatService.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Services\\Interfaces\\IChithisanxuatService.cs",
+              "RelativeToolTip": "ProductionDirectives\\Services\\Interfaces\\IChithisanxuatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:27:42.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:46:02.404Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Program.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Program.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Program.cs",
+              "RelativeToolTip": "ProductionDirectives\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAD4vygAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:44:51.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductionDirectivesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\DbContexts\\ProductionDirectivesDbContext.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\DbContexts\\ProductionDirectivesDbContext.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\DbContexts\\ProductionDirectivesDbContext.cs",
+              "RelativeToolTip": "ProductionDirectives\\DbContexts\\ProductionDirectivesDbContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowB8AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:30:21.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChiThiMau.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Models\\ChiThiMau.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Models\\ChiThiMau.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Models\\ChiThiMau.cs",
+              "RelativeToolTip": "ProductionDirectives\\Models\\ChiThiMau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T10:01:49.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanLyChiThi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.Designer.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.Designer.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.Designer.cs",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\QuanLyChiThi.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAWwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:01:26.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240824103234_InitDB.cs",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Migrations\\20240824103234_InitDB.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Migrations\\20240824103234_InitDB.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Migrations\\20240824103234_InitDB.cs",
+              "RelativeToolTip": "ProductionDirectives\\Migrations\\20240824103234_InitDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:32:34.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChiThiSanXuat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs [Design]",
+              "RelativeToolTip": "ProductionDirectives\\Forms\\User Controls\\ChiThiSanXuat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:53:58.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\app.manifest",
+              "RelativeDocumentMoniker": "ProductionDirectives\\app.manifest",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\app.manifest",
+              "RelativeToolTip": "ProductionDirectives\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-08-21T15:50:17.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\Dashboard.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Dashboard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:19:45.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\Forms\\User Controls\\Login.cs",
+              "RelativeDocumentMoniker": "ProductionDirectives\\Forms\\User Controls\\Login.cs",
+              "ToolTip": "C:\\Users\\onedi\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\ProductionDirectives\\ProductionDirectives\\Forms\\User Controls\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:59:12.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductionDirectives.csproj",
+              "DocumentMoniker": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
+              "RelativeDocumentMoniker": "ProductionDirectives\\ProductionDirectives.csproj",
+              "ToolTip": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
+              "RelativeToolTip": "ProductionDirectives\\ProductionDirectives.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-21T14:46:53.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

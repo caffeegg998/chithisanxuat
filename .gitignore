@@ -1,0 +1,18 @@
+# Ignore các file biên dịch
+*.class
+*.jar
+
+# Ignore thư mục node_modules
+node_modules/
+
+# Ignore các file cấu hình IDE
+.vscode/
+.idea/
+**/Debug/
+
+# Ignore các file log
+*.log
+
+# Ignore file cấu hình cụ thể nhưng cho phép file quan trọng
+config.ini
+!important_config.ini
