@@ -28,41 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             tableLayoutPanel1 = new TableLayoutPanel();
             materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             tabPage1 = new TabPage();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            materialCard3 = new MaterialSkin.Controls.MaterialCard();
-            groupBox3 = new GroupBox();
-            dataGridView1 = new DataGridView();
-            materialCard1 = new MaterialSkin.Controls.MaterialCard();
-            tableLayoutPanel3 = new TableLayoutPanel();
-            groupBox4 = new GroupBox();
-            groupBox2 = new GroupBox();
-            materialButton6 = new MaterialSkin.Controls.MaterialButton();
-            comboBox4 = new ComboBox();
-            label6 = new Label();
-            comboBox3 = new ComboBox();
-            comboBox2 = new ComboBox();
-            label5 = new Label();
-            label4 = new Label();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
-            groupBox1 = new GroupBox();
-            tableLayoutPanel8 = new TableLayoutPanel();
-            panel1 = new Panel();
-            comboBox1 = new ComboBox();
-            label1 = new Label();
-            dataGridView5 = new DataGridView();
             tabPage2 = new TabPage();
             tableLayoutPanel6 = new TableLayoutPanel();
             materialCard5 = new MaterialSkin.Controls.MaterialCard();
@@ -83,10 +58,11 @@
             materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
             materialButton2 = new MaterialSkin.Controls.MaterialButton();
             groupBox11 = new GroupBox();
-            materialTextBox21 = new MaterialSkin.Controls.MaterialTextBox2();
-            materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            materialButton3 = new MaterialSkin.Controls.MaterialButton();
-            materialTextBox22 = new MaterialSkin.Controls.MaterialTextBox2();
+            btnXacNhan = new MaterialSkin.Controls.MaterialButton();
+            txtLineName = new MaterialSkin.Controls.MaterialTextBox2();
+            btnDeleteChiThiMau = new MaterialSkin.Controls.MaterialButton();
+            btnSave_Update = new MaterialSkin.Controls.MaterialButton();
+            txtModelName = new MaterialSkin.Controls.MaterialTextBox2();
             groupBox12 = new GroupBox();
             dgvListChiThiMau = new DataGridView();
             tabPage4 = new TabPage();
@@ -110,18 +86,6 @@
             tabPage3 = new TabPage();
             tableLayoutPanel1.SuspendLayout();
             materialTabControl1.SuspendLayout();
-            tabPage1.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            materialCard3.SuspendLayout();
-            groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            materialCard1.SuspendLayout();
-            tableLayoutPanel3.SuspendLayout();
-            groupBox2.SuspendLayout();
-            groupBox1.SuspendLayout();
-            tableLayoutPanel8.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
             tabPage2.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
             materialCard5.SuspendLayout();
@@ -160,7 +124,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 38F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1124, 568);
+            tableLayoutPanel1.Size = new Size(1233, 568);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // materialTabSelector1
@@ -173,7 +137,7 @@
             materialTabSelector1.Location = new Point(3, 3);
             materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             materialTabSelector1.Name = "materialTabSelector1";
-            materialTabSelector1.Size = new Size(1118, 32);
+            materialTabSelector1.Size = new Size(1227, 32);
             materialTabSelector1.TabIndex = 0;
             materialTabSelector1.Text = "materialTabSelector1";
             // 
@@ -189,317 +153,18 @@
             materialTabControl1.Multiline = true;
             materialTabControl1.Name = "materialTabControl1";
             materialTabControl1.SelectedIndex = 0;
-            materialTabControl1.Size = new Size(1118, 524);
+            materialTabControl1.Size = new Size(1227, 524);
             materialTabControl1.TabIndex = 1;
             // 
             // tabPage1
             // 
             tabPage1.BackColor = Color.White;
-            tabPage1.Controls.Add(tableLayoutPanel2);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1110, 496);
+            tabPage1.Size = new Size(1219, 496);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Tạo chỉ thị sản xuất";
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.BackColor = Color.White;
-            tableLayoutPanel2.ColumnCount = 1;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Controls.Add(materialCard3, 0, 1);
-            tableLayoutPanel2.Controls.Add(materialCard1, 0, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 3);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 2;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 218F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(1104, 490);
-            tableLayoutPanel2.TabIndex = 0;
-            // 
-            // materialCard3
-            // 
-            materialCard3.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard3.Controls.Add(groupBox3);
-            materialCard3.Depth = 0;
-            materialCard3.Dock = DockStyle.Fill;
-            materialCard3.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard3.Location = new Point(2, 220);
-            materialCard3.Margin = new Padding(2);
-            materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
-            materialCard3.Name = "materialCard3";
-            materialCard3.Padding = new Padding(3);
-            materialCard3.Size = new Size(1100, 268);
-            materialCard3.TabIndex = 1;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Controls.Add(dataGridView1);
-            groupBox3.Dock = DockStyle.Fill;
-            groupBox3.Location = new Point(3, 3);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1094, 262);
-            groupBox3.TabIndex = 0;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Chi tiết chỉ thị";
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(3, 19);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1088, 240);
-            dataGridView1.TabIndex = 0;
-            // 
-            // materialCard1
-            // 
-            materialCard1.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard1.Controls.Add(tableLayoutPanel3);
-            materialCard1.Depth = 0;
-            materialCard1.Dock = DockStyle.Fill;
-            materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard1.Location = new Point(2, 2);
-            materialCard1.Margin = new Padding(2);
-            materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
-            materialCard1.Name = "materialCard1";
-            materialCard1.Padding = new Padding(3);
-            materialCard1.Size = new Size(1100, 214);
-            materialCard1.TabIndex = 2;
-            // 
-            // tableLayoutPanel3
-            // 
-            tableLayoutPanel3.ColumnCount = 3;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 342F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 373F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Controls.Add(groupBox4, 2, 0);
-            tableLayoutPanel3.Controls.Add(groupBox2, 1, 0);
-            tableLayoutPanel3.Controls.Add(groupBox1, 0, 0);
-            tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(3, 3);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 1;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Size = new Size(1094, 208);
-            tableLayoutPanel3.TabIndex = 0;
-            // 
-            // groupBox4
-            // 
-            groupBox4.Dock = DockStyle.Fill;
-            groupBox4.Location = new Point(718, 3);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(373, 202);
-            groupBox4.TabIndex = 2;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Tạo chỉ thị";
-            // 
-            // groupBox2
-            // 
-            groupBox2.Controls.Add(materialButton6);
-            groupBox2.Controls.Add(comboBox4);
-            groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(comboBox3);
-            groupBox2.Controls.Add(comboBox2);
-            groupBox2.Controls.Add(label5);
-            groupBox2.Controls.Add(label4);
-            groupBox2.Controls.Add(textBox2);
-            groupBox2.Controls.Add(label3);
-            groupBox2.Controls.Add(textBox1);
-            groupBox2.Controls.Add(label2);
-            groupBox2.Dock = DockStyle.Fill;
-            groupBox2.Location = new Point(345, 3);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(367, 202);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Thông tin chỉ thị";
-            // 
-            // materialButton6
-            // 
-            materialButton6.AutoSize = false;
-            materialButton6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            materialButton6.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            materialButton6.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            materialButton6.Depth = 0;
-            materialButton6.HighEmphasis = true;
-            materialButton6.Icon = Properties.Resources.research;
-            materialButton6.Location = new Point(223, 154);
-            materialButton6.Margin = new Padding(4, 6, 4, 6);
-            materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
-            materialButton6.Name = "materialButton6";
-            materialButton6.NoAccentTextColor = Color.Empty;
-            materialButton6.Size = new Size(130, 36);
-            materialButton6.TabIndex = 12;
-            materialButton6.Text = "Tìm chỉ thị";
-            materialButton6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            materialButton6.UseAccentColor = false;
-            materialButton6.UseVisualStyleBackColor = true;
-            // 
-            // comboBox4
-            // 
-            comboBox4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(261, 108);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(92, 29);
-            comboBox4.TabIndex = 11;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(196, 111);
-            label6.Name = "label6";
-            label6.Size = new Size(67, 21);
-            label6.TabIndex = 10;
-            label6.Text = "Ca/ Kíp:";
-            // 
-            // comboBox3
-            // 
-            comboBox3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(216, 28);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(137, 29);
-            comboBox3.TabIndex = 9;
-            // 
-            // comboBox2
-            // 
-            comboBox2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(71, 28);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(75, 29);
-            comboBox2.TabIndex = 8;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(154, 31);
-            label5.Name = "label5";
-            label5.Size = new Size(62, 21);
-            label5.TabIndex = 6;
-            label5.Text = "Model:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(13, 31);
-            label4.Name = "label4";
-            label4.Size = new Size(44, 21);
-            label4.TabIndex = 4;
-            label4.Text = "Line:";
-            // 
-            // textBox2
-            // 
-            textBox2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(71, 108);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(119, 29);
-            textBox2.TabIndex = 3;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(13, 110);
-            label3.Name = "label3";
-            label3.Size = new Size(39, 21);
-            label3.TabIndex = 2;
-            label3.Text = "Giờ:";
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(71, 68);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(282, 29);
-            textBox1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(13, 70);
-            label2.Name = "label2";
-            label2.Size = new Size(52, 21);
-            label2.TabIndex = 0;
-            label2.Text = "Ngày:";
-            // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(tableLayoutPanel8);
-            groupBox1.Dock = DockStyle.Fill;
-            groupBox1.Location = new Point(3, 3);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(336, 202);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Danh sách chỉ thị";
-            // 
-            // tableLayoutPanel8
-            // 
-            tableLayoutPanel8.ColumnCount = 1;
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel8.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel8.Controls.Add(dataGridView5, 0, 1);
-            tableLayoutPanel8.Dock = DockStyle.Fill;
-            tableLayoutPanel8.Location = new Point(3, 19);
-            tableLayoutPanel8.Name = "tableLayoutPanel8";
-            tableLayoutPanel8.RowCount = 2;
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Absolute, 34F));
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel8.Size = new Size(330, 180);
-            tableLayoutPanel8.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            panel1.BackColor = SystemColors.MenuHighlight;
-            panel1.Controls.Add(comboBox1);
-            panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(3, 0);
-            panel1.Margin = new Padding(3, 0, 3, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(324, 34);
-            panel1.TabIndex = 0;
-            // 
-            // comboBox1
-            // 
-            comboBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            comboBox1.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "S10", "S9", "S4", "M6", "M7", "M8" });
-            comboBox1.Location = new Point(216, 3);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(104, 28);
-            comboBox1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(174, 6);
-            label1.Name = "label1";
-            label1.Size = new Size(41, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Line:";
-            // 
-            // dataGridView5
-            // 
-            dataGridView5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView5.Dock = DockStyle.Fill;
-            dataGridView5.Location = new Point(3, 37);
-            dataGridView5.Name = "dataGridView5";
-            dataGridView5.Size = new Size(324, 140);
-            dataGridView5.TabIndex = 1;
             // 
             // tabPage2
             // 
@@ -507,7 +172,7 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1110, 496);
+            tabPage2.Size = new Size(1219, 496);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Chỉ thị mẫu";
             tabPage2.UseVisualStyleBackColor = true;
@@ -525,7 +190,7 @@
             tableLayoutPanel6.RowCount = 2;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 204F));
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel6.Size = new Size(1104, 490);
+            tableLayoutPanel6.Size = new Size(1213, 490);
             tableLayoutPanel6.TabIndex = 1;
             // 
             // materialCard5
@@ -540,7 +205,7 @@
             materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard5.Name = "materialCard5";
             materialCard5.Padding = new Padding(3);
-            materialCard5.Size = new Size(1100, 282);
+            materialCard5.Size = new Size(1209, 282);
             materialCard5.TabIndex = 1;
             // 
             // groupBox9
@@ -549,7 +214,7 @@
             groupBox9.Dock = DockStyle.Fill;
             groupBox9.Location = new Point(3, 3);
             groupBox9.Name = "groupBox9";
-            groupBox9.Size = new Size(1094, 276);
+            groupBox9.Size = new Size(1203, 276);
             groupBox9.TabIndex = 0;
             groupBox9.TabStop = false;
             groupBox9.Text = "Chi tiết chỉ thị";
@@ -559,25 +224,25 @@
             dgvChiThiMau_ChiTiet.AllowUserToAddRows = false;
             dgvChiThiMau_ChiTiet.AllowUserToDeleteRows = false;
             dgvChiThiMau_ChiTiet.BackgroundColor = Color.White;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = SystemColors.Control;
-            dataGridViewCellStyle7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle7.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-            dgvChiThiMau_ChiTiet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgvChiThiMau_ChiTiet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvChiThiMau_ChiTiet.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvChiThiMau_ChiTiet.Dock = DockStyle.Fill;
             dgvChiThiMau_ChiTiet.GridColor = Color.Black;
             dgvChiThiMau_ChiTiet.Location = new Point(3, 19);
             dgvChiThiMau_ChiTiet.Name = "dgvChiThiMau_ChiTiet";
             dgvChiThiMau_ChiTiet.RowHeadersVisible = false;
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.True;
-            dgvChiThiMau_ChiTiet.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvChiThiMau_ChiTiet.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgvChiThiMau_ChiTiet.RowTemplate.Height = 50;
-            dgvChiThiMau_ChiTiet.Size = new Size(1088, 254);
+            dgvChiThiMau_ChiTiet.Size = new Size(1197, 254);
             dgvChiThiMau_ChiTiet.TabIndex = 0;
             // 
             // materialCard6
@@ -592,14 +257,14 @@
             materialCard6.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard6.Name = "materialCard6";
             materialCard6.Padding = new Padding(3);
-            materialCard6.Size = new Size(1100, 200);
+            materialCard6.Size = new Size(1209, 200);
             materialCard6.TabIndex = 2;
             // 
             // tableLayoutPanel7
             // 
             tableLayoutPanel7.ColumnCount = 3;
+            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 433F));
             tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 335F));
-            tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 331F));
             tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel7.Controls.Add(groupBox10, 2, 0);
             tableLayoutPanel7.Controls.Add(groupBox11, 1, 0);
@@ -609,7 +274,7 @@
             tableLayoutPanel7.Name = "tableLayoutPanel7";
             tableLayoutPanel7.RowCount = 1;
             tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel7.Size = new Size(1094, 194);
+            tableLayoutPanel7.Size = new Size(1203, 194);
             tableLayoutPanel7.TabIndex = 0;
             // 
             // groupBox10
@@ -621,9 +286,9 @@
             groupBox10.Controls.Add(materialComboBox1);
             groupBox10.Controls.Add(materialButton2);
             groupBox10.Dock = DockStyle.Fill;
-            groupBox10.Location = new Point(669, 3);
+            groupBox10.Location = new Point(771, 3);
             groupBox10.Name = "groupBox10";
-            groupBox10.Size = new Size(422, 188);
+            groupBox10.Size = new Size(429, 188);
             groupBox10.TabIndex = 2;
             groupBox10.TabStop = false;
             groupBox10.Text = "Công cụ";
@@ -804,122 +469,148 @@
             // 
             // groupBox11
             // 
-            groupBox11.Controls.Add(materialTextBox21);
-            groupBox11.Controls.Add(materialButton1);
-            groupBox11.Controls.Add(materialButton3);
-            groupBox11.Controls.Add(materialTextBox22);
+            groupBox11.Controls.Add(btnXacNhan);
+            groupBox11.Controls.Add(txtLineName);
+            groupBox11.Controls.Add(btnDeleteChiThiMau);
+            groupBox11.Controls.Add(btnSave_Update);
+            groupBox11.Controls.Add(txtModelName);
             groupBox11.Dock = DockStyle.Fill;
-            groupBox11.Location = new Point(338, 3);
+            groupBox11.Location = new Point(436, 3);
             groupBox11.Name = "groupBox11";
-            groupBox11.Size = new Size(325, 188);
+            groupBox11.Size = new Size(329, 188);
             groupBox11.TabIndex = 1;
             groupBox11.TabStop = false;
             groupBox11.Text = "Thông tin chỉ thị mẫu";
             // 
-            // materialTextBox21
+            // btnXacNhan
             // 
-            materialTextBox21.AnimateReadOnly = false;
-            materialTextBox21.BackgroundImageLayout = ImageLayout.None;
-            materialTextBox21.CharacterCasing = CharacterCasing.Normal;
-            materialTextBox21.Depth = 0;
-            materialTextBox21.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBox21.HideSelection = true;
-            materialTextBox21.LeadingIcon = null;
-            materialTextBox21.Location = new Point(16, 25);
-            materialTextBox21.MaxLength = 32767;
-            materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
-            materialTextBox21.Name = "materialTextBox21";
-            materialTextBox21.PasswordChar = '\0';
-            materialTextBox21.PrefixSuffix = MaterialSkin.Controls.MaterialTextBox2.PrefixSuffixTypes.Prefix;
-            materialTextBox21.PrefixSuffixText = "Line name:";
-            materialTextBox21.ReadOnly = false;
-            materialTextBox21.RightToLeft = RightToLeft.No;
-            materialTextBox21.SelectedText = "";
-            materialTextBox21.SelectionLength = 0;
-            materialTextBox21.SelectionStart = 0;
-            materialTextBox21.ShortcutsEnabled = true;
-            materialTextBox21.Size = new Size(302, 48);
-            materialTextBox21.TabIndex = 4;
-            materialTextBox21.TabStop = false;
-            materialTextBox21.TextAlign = HorizontalAlignment.Left;
-            materialTextBox21.TrailingIcon = Properties.Resources.conveyor_belt;
-            materialTextBox21.UseSystemPasswordChar = false;
+            btnXacNhan.AutoSize = false;
+            btnXacNhan.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            btnXacNhan.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            btnXacNhan.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            btnXacNhan.Depth = 0;
+            btnXacNhan.Enabled = false;
+            btnXacNhan.HighEmphasis = true;
+            btnXacNhan.Icon = null;
+            btnXacNhan.Location = new Point(127, 136);
+            btnXacNhan.Margin = new Padding(4, 6, 4, 6);
+            btnXacNhan.MouseState = MaterialSkin.MouseState.HOVER;
+            btnXacNhan.Name = "btnXacNhan";
+            btnXacNhan.NoAccentTextColor = Color.Empty;
+            btnXacNhan.Size = new Size(92, 36);
+            btnXacNhan.TabIndex = 6;
+            btnXacNhan.Text = "Xác nhận";
+            btnXacNhan.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            btnXacNhan.UseAccentColor = false;
+            btnXacNhan.UseVisualStyleBackColor = true;
             // 
-            // materialButton1
+            // txtLineName
             // 
-            materialButton1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            materialButton1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            materialButton1.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            materialButton1.Depth = 0;
-            materialButton1.HighEmphasis = true;
-            materialButton1.Icon = null;
-            materialButton1.Location = new Point(177, 136);
-            materialButton1.Margin = new Padding(4, 6, 4, 6);
-            materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            materialButton1.Name = "materialButton1";
-            materialButton1.NoAccentTextColor = Color.Empty;
-            materialButton1.Size = new Size(141, 36);
-            materialButton1.TabIndex = 0;
-            materialButton1.Text = "Xóa chỉ thị mẫu";
-            materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            materialButton1.UseAccentColor = true;
-            materialButton1.UseVisualStyleBackColor = true;
+            txtLineName.AnimateReadOnly = false;
+            txtLineName.BackgroundImageLayout = ImageLayout.None;
+            txtLineName.CharacterCasing = CharacterCasing.Normal;
+            txtLineName.Depth = 0;
+            txtLineName.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            txtLineName.HideSelection = true;
+            txtLineName.LeadingIcon = null;
+            txtLineName.Location = new Point(16, 25);
+            txtLineName.MaxLength = 32767;
+            txtLineName.MouseState = MaterialSkin.MouseState.OUT;
+            txtLineName.Name = "txtLineName";
+            txtLineName.PasswordChar = '\0';
+            txtLineName.PrefixSuffix = MaterialSkin.Controls.MaterialTextBox2.PrefixSuffixTypes.Prefix;
+            txtLineName.PrefixSuffixText = "Line name:";
+            txtLineName.ReadOnly = false;
+            txtLineName.RightToLeft = RightToLeft.No;
+            txtLineName.SelectedText = "";
+            txtLineName.SelectionLength = 0;
+            txtLineName.SelectionStart = 0;
+            txtLineName.ShortcutsEnabled = true;
+            txtLineName.Size = new Size(302, 48);
+            txtLineName.TabIndex = 4;
+            txtLineName.TabStop = false;
+            txtLineName.TextAlign = HorizontalAlignment.Left;
+            txtLineName.TrailingIcon = Properties.Resources.conveyor_belt;
+            txtLineName.UseSystemPasswordChar = false;
             // 
-            // materialButton3
+            // btnDeleteChiThiMau
             // 
-            materialButton3.AutoSize = false;
-            materialButton3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            materialButton3.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            materialButton3.Depth = 0;
-            materialButton3.Enabled = false;
-            materialButton3.HighEmphasis = true;
-            materialButton3.Icon = null;
-            materialButton3.Location = new Point(16, 136);
-            materialButton3.Margin = new Padding(4, 6, 4, 6);
-            materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            materialButton3.Name = "materialButton3";
-            materialButton3.NoAccentTextColor = Color.Empty;
-            materialButton3.Size = new Size(142, 36);
-            materialButton3.TabIndex = 3;
-            materialButton3.Text = "Cập nhật chỉ thị";
-            materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            materialButton3.UseAccentColor = false;
-            materialButton3.UseVisualStyleBackColor = true;
-            materialButton3.Visible = false;
-            materialButton3.Click += materialButton3_Click;
+            btnDeleteChiThiMau.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnDeleteChiThiMau.AutoSize = false;
+            btnDeleteChiThiMau.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            btnDeleteChiThiMau.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            btnDeleteChiThiMau.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            btnDeleteChiThiMau.Depth = 0;
+            btnDeleteChiThiMau.Enabled = false;
+            btnDeleteChiThiMau.HighEmphasis = true;
+            btnDeleteChiThiMau.Icon = Properties.Resources.delete;
+            btnDeleteChiThiMau.Location = new Point(240, 136);
+            btnDeleteChiThiMau.Margin = new Padding(4, 6, 4, 6);
+            btnDeleteChiThiMau.MouseState = MaterialSkin.MouseState.HOVER;
+            btnDeleteChiThiMau.Name = "btnDeleteChiThiMau";
+            btnDeleteChiThiMau.NoAccentTextColor = Color.Empty;
+            btnDeleteChiThiMau.Size = new Size(82, 36);
+            btnDeleteChiThiMau.TabIndex = 0;
+            btnDeleteChiThiMau.Text = "Xóa";
+            btnDeleteChiThiMau.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            btnDeleteChiThiMau.UseAccentColor = true;
+            btnDeleteChiThiMau.UseVisualStyleBackColor = true;
+            btnDeleteChiThiMau.Click += btnDeleteChiThiMau_Click;
             // 
-            // materialTextBox22
+            // btnSave_Update
             // 
-            materialTextBox22.AnimateReadOnly = false;
-            materialTextBox22.BackgroundImageLayout = ImageLayout.None;
-            materialTextBox22.CharacterCasing = CharacterCasing.Normal;
-            materialTextBox22.Depth = 0;
-            materialTextBox22.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBox22.HelperText = "KJL;K";
-            materialTextBox22.HideSelection = true;
-            materialTextBox22.LeadingIcon = null;
-            materialTextBox22.Location = new Point(16, 67);
-            materialTextBox22.MaxLength = 32767;
-            materialTextBox22.MouseState = MaterialSkin.MouseState.OUT;
-            materialTextBox22.Name = "materialTextBox22";
-            materialTextBox22.PasswordChar = '\0';
-            materialTextBox22.PrefixSuffix = MaterialSkin.Controls.MaterialTextBox2.PrefixSuffixTypes.Prefix;
-            materialTextBox22.PrefixSuffixText = "Model:";
-            materialTextBox22.ReadOnly = false;
-            materialTextBox22.RightToLeft = RightToLeft.No;
-            materialTextBox22.SelectedText = "";
-            materialTextBox22.SelectionLength = 0;
-            materialTextBox22.SelectionStart = 0;
-            materialTextBox22.ShortcutsEnabled = true;
-            materialTextBox22.Size = new Size(302, 48);
-            materialTextBox22.TabIndex = 5;
-            materialTextBox22.TabStop = false;
-            materialTextBox22.TextAlign = HorizontalAlignment.Left;
-            materialTextBox22.TrailingIcon = Properties.Resources.tech;
-            materialTextBox22.UseSystemPasswordChar = false;
-            materialTextBox22.KeyPress += materialTextBox22_KeyPress;
+            btnSave_Update.AutoSize = false;
+            btnSave_Update.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            btnSave_Update.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            btnSave_Update.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            btnSave_Update.Depth = 0;
+            btnSave_Update.Enabled = false;
+            btnSave_Update.HighEmphasis = true;
+            btnSave_Update.Icon = null;
+            btnSave_Update.Location = new Point(16, 136);
+            btnSave_Update.Margin = new Padding(4, 6, 4, 6);
+            btnSave_Update.MouseState = MaterialSkin.MouseState.HOVER;
+            btnSave_Update.Name = "btnSave_Update";
+            btnSave_Update.NoAccentTextColor = Color.Empty;
+            btnSave_Update.Size = new Size(92, 36);
+            btnSave_Update.TabIndex = 3;
+            btnSave_Update.Text = "Cập nhật";
+            btnSave_Update.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            btnSave_Update.UseAccentColor = false;
+            btnSave_Update.UseVisualStyleBackColor = true;
+            btnSave_Update.Visible = false;
+            btnSave_Update.Click += materialButton3_Click;
+            // 
+            // txtModelName
+            // 
+            txtModelName.AnimateReadOnly = false;
+            txtModelName.BackgroundImageLayout = ImageLayout.None;
+            txtModelName.CharacterCasing = CharacterCasing.Normal;
+            txtModelName.Depth = 0;
+            txtModelName.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            txtModelName.HelperText = "KJL;K";
+            txtModelName.HideSelection = true;
+            txtModelName.LeadingIcon = null;
+            txtModelName.Location = new Point(16, 67);
+            txtModelName.MaxLength = 32767;
+            txtModelName.MouseState = MaterialSkin.MouseState.OUT;
+            txtModelName.Name = "txtModelName";
+            txtModelName.PasswordChar = '\0';
+            txtModelName.PrefixSuffix = MaterialSkin.Controls.MaterialTextBox2.PrefixSuffixTypes.Prefix;
+            txtModelName.PrefixSuffixText = "Model:";
+            txtModelName.ReadOnly = false;
+            txtModelName.RightToLeft = RightToLeft.No;
+            txtModelName.SelectedText = "";
+            txtModelName.SelectionLength = 0;
+            txtModelName.SelectionStart = 0;
+            txtModelName.ShortcutsEnabled = true;
+            txtModelName.Size = new Size(302, 48);
+            txtModelName.TabIndex = 5;
+            txtModelName.TabStop = false;
+            txtModelName.TextAlign = HorizontalAlignment.Left;
+            txtModelName.TrailingIcon = Properties.Resources.tech;
+            txtModelName.UseSystemPasswordChar = false;
+            txtModelName.KeyPress += materialTextBox22_KeyPress;
             // 
             // groupBox12
             // 
@@ -927,7 +618,7 @@
             groupBox12.Dock = DockStyle.Fill;
             groupBox12.Location = new Point(3, 3);
             groupBox12.Name = "groupBox12";
-            groupBox12.Size = new Size(329, 188);
+            groupBox12.Size = new Size(427, 188);
             groupBox12.TabIndex = 0;
             groupBox12.TabStop = false;
             groupBox12.Text = "Danh sách chỉ thị mẫu";
@@ -940,7 +631,7 @@
             dgvListChiThiMau.GridColor = Color.Black;
             dgvListChiThiMau.Location = new Point(3, 19);
             dgvListChiThiMau.Name = "dgvListChiThiMau";
-            dgvListChiThiMau.Size = new Size(323, 166);
+            dgvListChiThiMau.Size = new Size(421, 166);
             dgvListChiThiMau.TabIndex = 0;
             // 
             // tabPage4
@@ -949,7 +640,7 @@
             tabPage4.Location = new Point(4, 24);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(1110, 496);
+            tabPage4.Size = new Size(1219, 496);
             tabPage4.TabIndex = 2;
             tabPage4.Text = "tabPage4";
             tabPage4.UseVisualStyleBackColor = true;
@@ -967,7 +658,7 @@
             tableLayoutPanel9.RowCount = 2;
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Absolute, 65F));
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel9.Size = new Size(1104, 490);
+            tableLayoutPanel9.Size = new Size(1213, 490);
             tableLayoutPanel9.TabIndex = 2;
             // 
             // materialCard7
@@ -982,7 +673,7 @@
             materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard7.Name = "materialCard7";
             materialCard7.Padding = new Padding(3);
-            materialCard7.Size = new Size(1100, 421);
+            materialCard7.Size = new Size(1209, 421);
             materialCard7.TabIndex = 1;
             // 
             // groupBox13
@@ -991,7 +682,7 @@
             groupBox13.Dock = DockStyle.Fill;
             groupBox13.Location = new Point(3, 3);
             groupBox13.Name = "groupBox13";
-            groupBox13.Size = new Size(1094, 415);
+            groupBox13.Size = new Size(1203, 415);
             groupBox13.TabIndex = 0;
             groupBox13.TabStop = false;
             groupBox13.Text = "Chi tiết mẫu";
@@ -1002,41 +693,41 @@
             dgvChiThi_Template.AllowUserToDeleteRows = false;
             dgvChiThi_Template.BackgroundColor = Color.White;
             dgvChiThi_Template.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = SystemColors.Highlight;
-            dataGridViewCellStyle9.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle9.ForeColor = Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.False;
-            dgvChiThi_Template.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.ForeColor = Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dgvChiThi_Template.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dgvChiThi_Template.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = SystemColors.Window;
-            dataGridViewCellStyle10.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle10.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            dataGridViewCellStyle10.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = DataGridViewTriState.True;
-            dgvChiThi_Template.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = SystemColors.Window;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle4.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dgvChiThi_Template.DefaultCellStyle = dataGridViewCellStyle4;
             dgvChiThi_Template.Dock = DockStyle.Fill;
             dgvChiThi_Template.Location = new Point(3, 19);
             dgvChiThi_Template.Name = "dgvChiThi_Template";
             dgvChiThi_Template.ReadOnly = true;
-            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = SystemColors.Control;
-            dataGridViewCellStyle11.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle11.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.True;
-            dgvChiThi_Template.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = SystemColors.Control;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            dgvChiThi_Template.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             dgvChiThi_Template.RowHeadersVisible = false;
             dgvChiThi_Template.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvChiThi_Template.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dgvChiThi_Template.RowsDefaultCellStyle = dataGridViewCellStyle6;
             dgvChiThi_Template.RowTemplate.Height = 50;
-            dgvChiThi_Template.Size = new Size(1088, 393);
+            dgvChiThi_Template.Size = new Size(1197, 393);
             dgvChiThi_Template.TabIndex = 0;
             // 
             // materialCard8
@@ -1053,7 +744,7 @@
             materialCard8.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard8.Name = "materialCard8";
             materialCard8.Padding = new Padding(3);
-            materialCard8.Size = new Size(1100, 61);
+            materialCard8.Size = new Size(1209, 61);
             materialCard8.TabIndex = 2;
             // 
             // materialButton8
@@ -1064,7 +755,7 @@
             materialButton8.Depth = 0;
             materialButton8.HighEmphasis = true;
             materialButton8.Icon = null;
-            materialButton8.Location = new Point(425, 12);
+            materialButton8.Location = new Point(302, 11);
             materialButton8.Margin = new Padding(4, 6, 4, 6);
             materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton8.Name = "materialButton8";
@@ -1245,24 +936,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
             Name = "QuanLyChiThi";
-            Size = new Size(1124, 568);
+            Size = new Size(1233, 568);
             Load += QuanLyChiThi_Load;
             tableLayoutPanel1.ResumeLayout(false);
             materialTabControl1.ResumeLayout(false);
-            tabPage1.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            materialCard3.ResumeLayout(false);
-            groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            materialCard1.ResumeLayout(false);
-            tableLayoutPanel3.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            tableLayoutPanel8.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView5).EndInit();
             tabPage2.ResumeLayout(false);
             tableLayoutPanel6.ResumeLayout(false);
             materialCard5.ResumeLayout(false);
@@ -1275,7 +952,6 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             groupBox11.ResumeLayout(false);
-            groupBox11.PerformLayout();
             groupBox12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvListChiThiMau).EndInit();
             tabPage4.ResumeLayout(false);
@@ -1301,15 +977,6 @@
         private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private TableLayoutPanel tableLayoutPanel2;
-        private MaterialSkin.Controls.MaterialCard materialCard3;
-        private GroupBox groupBox3;
-        private MaterialSkin.Controls.MaterialCard materialCard1;
-        private TableLayoutPanel tableLayoutPanel3;
-        private GroupBox groupBox4;
-        private GroupBox groupBox2;
-        private GroupBox groupBox1;
-        private DataGridView dataGridView1;
         private TableLayoutPanel tableLayoutPanel6;
         private MaterialSkin.Controls.MaterialCard materialCard5;
         private GroupBox groupBox9;
@@ -1317,7 +984,7 @@
         private MaterialSkin.Controls.MaterialCard materialCard6;
         private TableLayoutPanel tableLayoutPanel7;
         private GroupBox groupBox10;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialButton btnDeleteChiThiMau;
         private GroupBox groupBox11;
         private GroupBox groupBox12;
         private TableLayoutPanel tableLayoutPanel4;
@@ -1338,22 +1005,6 @@
         private MaterialSkin.Controls.MaterialTextBox2 materialTextBox22;
         private MaterialSkin.Controls.MaterialTextBox2 materialTextBox21;
         private DataGridView dgvListChiThiMau;
-        private TableLayoutPanel tableLayoutPanel8;
-        private Panel panel1;
-        private ComboBox comboBox1;
-        private Label label1;
-        private DataGridView dataGridView5;
-        private Label label6;
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
-        private Label label5;
-        private Label label4;
-        private TextBox textBox2;
-        private Label label3;
-        private TextBox textBox1;
-        private Label label2;
-        private MaterialSkin.Controls.MaterialButton materialButton6;
-        private ComboBox comboBox4;
         private TabPage tabPage4;
         private TableLayoutPanel tableLayoutPanel9;
         private MaterialSkin.Controls.MaterialCard materialCard7;
@@ -1371,5 +1022,10 @@
         private Label label9;
         private Label label8;
         private Label label7;
+        private MaterialSkin.Controls.MaterialTextBox2 txtLineName;
+        private MaterialSkin.Controls.MaterialTextBox2 txtModelName;
+        private MaterialSkin.Controls.MaterialButton btnSave_Update;
+        private MaterialSkin.Controls.MaterialButton materialButton10;
+        private MaterialSkin.Controls.MaterialButton btnXacNhan;
     }
 }

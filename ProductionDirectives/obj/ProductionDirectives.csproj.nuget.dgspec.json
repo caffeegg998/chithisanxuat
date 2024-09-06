@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj": {}
+    "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj": {}
   },
   "projects": {
-    "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj": {
+    "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
+        "projectUniqueName": "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
         "projectName": "ProductionDirectives",
-        "projectPath": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
-        "packagesPath": "C:\\Users\\onedi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\obj\\",
+        "projectPath": "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
+        "packagesPath": "D:\\Users\\v155630\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\onedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\v155630\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Users\\v155630\\.nuget": {},
+          "D:\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,17 +36,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "EPPlus": {
               "target": "Package",
               "version": "[7.3.0, )"
@@ -90,6 +90,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.0.0, )"
+            },
             "ScottPlot": {
               "target": "Package",
               "version": "[5.0.37, )"
@@ -118,7 +122,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -19,6 +19,11 @@ namespace ProductionDirectives.Models
         public string Actual { get; set; }
         public bool Result { get; set; }
         public DateTime LastChecked { get; set; }
+
+        public Guid? PICCheckId { get; set; }
+        public virtual NguoiDung PICCheck { get; set; }
         public Guid Id_ChiThiPheDuyet { get; set; }
+
+        public virtual ChiThiPheDuyet ChiThiPheDuyet { get; set; }
     }
 }

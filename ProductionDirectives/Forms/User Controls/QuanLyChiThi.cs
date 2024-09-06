@@ -1,6 +1,7 @@
 ﻿using MaterialSkin.Controls;
 using OfficeOpenXml;
 using ProductionDirectives.Models;
+using ProductionDirectives.Models.Interfaces;
 using ProductionDirectives.Repository.Interfaces;
 using ProductionDirectives.Services.Interfaces;
 using System;
@@ -12,6 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 
 namespace ProductionDirectives.Forms.User_Controls
 {
@@ -21,8 +23,13 @@ namespace ProductionDirectives.Forms.User_Controls
         private DataTable allLine_Temp;
         private List<ChiThiMau_ChiTiet> chiThiMau_ChiTiets;
 
+     
+
         private readonly IChithisanxuatService _chithisanxuatService;
-        public QuanLyChiThi( IChithisanxuatService chithisanxuatService)
+        private readonly TaoChiThiSanXuat _taoChiThiSanXuat;
+
+                private bool initColumne_Once = false;
+        public QuanLyChiThi(IChithisanxuatService chithisanxuatService)
         {
             InitializeComponent();
             chiThiMau_ChiTiets = new List<ChiThiMau_ChiTiet>();
@@ -30,9 +37,85 @@ namespace ProductionDirectives.Forms.User_Controls
             _chithisanxuatService = chithisanxuatService;
 
             _chithisanxuatService.ReloadDataGridView_ChiThiMau(dgvListChiThiMau);
+
+            dgvListChiThiMau.CellClick += DgvListChiThiMau_CellClick;
+            btnXacNhan.Click += BtnXacNhan_Click;
+
+
+
+
+            _taoChiThiSanXuat = new TaoChiThiSanXuat(_chithisanxuatService);
+            _taoChiThiSanXuat.Dock = DockStyle.Fill;
+
+            tabPage1.Controls.Add(_taoChiThiSanXuat);
+            
         }
 
+        
 
+        private void BtnXacNhan_Click(object? sender, EventArgs e)
+        {
+            btnSave_Update.Enabled = true;
+            btnXacNhan.Enabled = false;
+
+        }
+
+        private Guid Id_Chithichitiet;
+
+        private void DgvListChiThiMau_CellClick(object? sender, DataGridViewCellEventArgs e)
+        {
+            if (editMode == false)
+            {
+                editMode = !editMode;
+            }
+
+            if (e.RowIndex >= 0)
+            {
+                // Lấy hàng được chọn
+                DataGridViewRow row = dgvListChiThiMau.Rows[e.RowIndex];
+
+                // Xử lý dữ liệu từ hàng được chọn
+                // Ví dụ: hiển thị dữ liệu lên các TextBox
+                string Id = row.Cells["Id"].Value.ToString();
+                string lineName = row.Cells["LineName"].Value.ToString();
+                string modelName = row.Cells["ModelName"].Value.ToString();
+                Id_Chithichitiet = Guid.Parse(Id);
+
+                txtLineName.Text = lineName;
+                txtModelName.Text = modelName;
+
+                btnSave_Update.Text = "Cập nhật";
+                btnSave_Update.Visible = true;
+                btnSave_Update.Enabled = false;
+                btnXacNhan.Enabled = true;
+                btnDeleteChiThiMau.Enabled = true;
+
+
+                List<ChiThiMau_ChiTiet> chiThiMau_ChiTiets = _chithisanxuatService.GetChiThiMau_ChiTietsBy_IdChiThiMau(Id_Chithichitiet);
+                dgvChiThiMau_ChiTiet.DataSource = chiThiMau_ChiTiets;
+                dgvChiThiMau_ChiTiet.Columns["Id"].Visible = false;
+                dgvChiThiMau_ChiTiet.Columns["Id_ChiThiMau"].Visible = false;
+                dgvChiThiMau_ChiTiet.Columns["ChiThiMau"].Visible = false;
+
+
+
+                //Font size
+                Font boldFont = new Font(dgvChiThiMau_ChiTiet.Font, FontStyle.Bold);
+
+                //Set ReadOnly
+                dgvChiThiMau_ChiTiet.Columns["ModelName"].ReadOnly = true;
+                
+                dgvChiThiMau_ChiTiet.Columns["Stage"].ReadOnly = true;
+                dgvChiThiMau_ChiTiet.Columns["NumberOrder"].ReadOnly = true;
+                dgvChiThiMau_ChiTiet.Columns["Step"].ReadOnly = true;
+
+                //Set Font
+                dgvChiThiMau_ChiTiet.Columns["ModelName"].DefaultCellStyle.Font = boldFont;
+                dgvChiThiMau_ChiTiet.Columns["RuleStandard"].DefaultCellStyle.Font = boldFont;
+                //Set AutoSizeComlumn
+                dgvChiThiMau_ChiTiet.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            }
+        }
 
         private void QuanLyChiThi_Load(object sender, EventArgs e)
         {
@@ -73,7 +156,7 @@ namespace ProductionDirectives.Forms.User_Controls
             DataTable dt = new DataTable();
             try
             {
-
+                ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.Commercial;
 
                 using (var package = new ExcelPackage(new FileInfo(filePath)))
                 {
@@ -161,10 +244,20 @@ namespace ProductionDirectives.Forms.User_Controls
 
         private void materialButton2_Click(object sender, EventArgs e)
         {
+            if (editMode == true)
+            {
+                editMode = !editMode;
+            }
             chiThiMau_ChiTiets.Clear();
+            txtModelName.Text = "";
+            btnXacNhan.Enabled = false;
             string lineName = materialComboBox1.Text;
-            materialTextBox21.Text = lineName;
-            materialButton3.Text = "Lưu chỉ thị";
+            txtLineName.Text = lineName;
+            btnSave_Update.Text = "Lưu";
+            panel2.BackColor = Color.FromArgb(255, 128, 128);
+            btnSave_Update.Enabled = false;
+            btnDeleteChiThiMau.Enabled = false;
+            btnDeleteChiThiMau.ForeColor = Color.White;
             List<ChiThi_Template> chiThi_Templates = _chithisanxuatService.GetChiThi_TemplateByLine(lineName);
 
 
@@ -172,11 +265,10 @@ namespace ProductionDirectives.Forms.User_Controls
             dgvChiThiMau_ChiTiet.Columns[0].Visible = false;
             dgvChiThiMau_ChiTiet.Columns[2].DefaultCellStyle.Format = "UpperCase";
             dgvChiThiMau_ChiTiet.Columns["RuleStandard"].DefaultCellStyle.Font = new Font(dgvChiThiMau_ChiTiet.Font, FontStyle.Bold);
-            dgvChiThiMau_ChiTiet.Columns[2].DefaultCellStyle.Format = "UpperCase";
             dgvChiThiMau_ChiTiet.Columns["ModelName"].DefaultCellStyle.Font = new Font(dgvChiThiMau_ChiTiet.Font, FontStyle.Bold);
             dgvChiThiMau_ChiTiet.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-            
+
         }
 
         public void checkDone()
@@ -188,18 +280,20 @@ namespace ProductionDirectives.Forms.User_Controls
             if (total == step)
             {
                 panel2.BackColor = Color.FromArgb(128, 255, 128);
-                materialButton3.Enabled = true;
+                //btnSave_Update.Enabled = true;
+                btnXacNhan.Enabled = true;
             }
         }
         private void materialTextBox22_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                materialButton3.Visible = true;
+                btnSave_Update.Visible = true;
+                chiThiMau_ChiTiets.Clear();
                 foreach (DataGridViewRow row in dgvChiThiMau_ChiTiet.Rows)
                 {
                     // Cập nhật giá trị của cell trong cột mong muốn
-                    row.Cells["ModelName"].Value = materialTextBox22.Text;
+                    row.Cells["ModelName"].Value = txtModelName.Text;
 
                 }
                 foreach (DataGridViewRow row in dgvChiThiMau_ChiTiet.Rows)
@@ -208,7 +302,7 @@ namespace ProductionDirectives.Forms.User_Controls
                     if (row.Cells["RuleStandard"].Value.ToString() != "")
                     {
                         string lineNamee = row.Cells["LineName"].Value.ToString();
-                        string modelName = materialTextBox22.Text;
+                        string modelName = txtModelName.Text;
                         string stage = row.Cells["Stage"].Value.ToString();
                         string numberOrder = row.Cells["NumberOrder"].Value.ToString();
                         string step = row.Cells["Step"].Value.ToString();
@@ -306,30 +400,104 @@ namespace ProductionDirectives.Forms.User_Controls
 
         }
 
+        private bool editMode = false;
+
         private async void materialButton3_Click(object sender, EventArgs e)
         {
-            List<ChiThiMau_ChiTiet> soft = chiThiMau_ChiTiets.OrderBy(ct => ct.NumberOrder).ToList();
-
-            string lineName = materialTextBox21.Text;
-            string modelName = materialTextBox22.Text;
-            int totalStage = soft.Count();
-            int totalStep = soft.Count();
-
-            ChiThiMau chiThiMau = new ChiThiMau{
-                LineName = lineName,
-                ModelName = modelName,
-                TotalStage = totalStage,
-                TotalStep = totalStep,
-            };
-
-            Guid chiThiMau_Guid = _chithisanxuatService.CreateChiThiMau(chiThiMau);
-
-            foreach(ChiThiMau_ChiTiet chiThiMau_ChiTiet in soft)
+            if (editMode == false)
             {
-               chiThiMau_ChiTiet.Id_ChiThiMau = chiThiMau_Guid;
-            }
+                List<ChiThiMau_ChiTiet> soft = chiThiMau_ChiTiets.OrderBy(ct => ct.NumberOrder).ToList();
 
-            _chithisanxuatService.ImportChiThiMau_ChiTiet(soft);
+                string lineName = txtLineName.Text;
+                string modelName = txtModelName.Text;
+                int totalStage = soft.Count();
+                int totalStep = soft.Count();
+
+                ChiThiMau chiThiMau = new ChiThiMau
+                {
+                    LineName = lineName,
+                    ModelName = modelName,
+                    TotalStage = totalStage,
+                    TotalStep = totalStep,
+                };
+
+                Guid chiThiMau_Guid = _chithisanxuatService.CreateChiThiMau(chiThiMau);
+
+                foreach (ChiThiMau_ChiTiet chiThiMau_ChiTiet in soft)
+                {
+                    chiThiMau_ChiTiet.Id_ChiThiMau = chiThiMau_Guid;
+                }
+
+                _chithisanxuatService.ImportChiThiMau_ChiTiet(soft);
+                _chithisanxuatService.ReloadDataGridView_ChiThiMau(dgvListChiThiMau);
+
+                dgvChiThiMau_ChiTiet.DataSource = null;
+                txtLineName.Text = "";
+                txtModelName.Text = "";
+                btnSave_Update.Visible = false;
+
+                _taoChiThiSanXuat.InitLine();
+            }
+            else if (editMode == true)
+            {
+                List<ChiThiMau_ChiTiet> chiThiMau_ChiTiets_Update = new List<ChiThiMau_ChiTiet>();
+
+                foreach(DataGridViewRow row in dgvChiThiMau_ChiTiet.Rows)
+                {
+                    string id = row.Cells["Id"].Value.ToString();
+                    string lineName = row.Cells["LineName"].Value.ToString();
+                    string modelName = row.Cells["ModelName"].Value.ToString();
+                    string stage = row.Cells["Stage"].Value.ToString();
+                    string numberOrder = row.Cells["NumberOrder"].Value.ToString();
+                    string step = row.Cells["Step"].Value.ToString();
+                    string ruleStandard = row.Cells["RuleStandard"].Value.ToString();
+                    string idChiThiMau = row.Cells["Id_ChiThiMau"].Value.ToString();
+
+                    ChiThiMau_ChiTiet chiThiMau_ChiTiet = new ChiThiMau_ChiTiet
+                    {
+                        Id = Guid.Parse(id),
+                        LineName = lineName,
+                        ModelName = modelName,
+                        Stage = stage,
+                        NumberOrder = Int32.Parse(numberOrder),
+                        Step = step,
+                        RuleStandard = ruleStandard,
+                        Id_ChiThiMau = Guid.Parse(idChiThiMau)
+                    };
+                    chiThiMau_ChiTiets_Update.Add(chiThiMau_ChiTiet);
+
+
+                }
+                bool result = await _chithisanxuatService.UpdateChiThiMauChiTiet(chiThiMau_ChiTiets_Update);
+
+                if (result)
+                {
+                    MessageBox.Show("Update thành công");
+                }
+
+                MessageBox.Show("Test Cập nhật");
+            }
+        }
+
+        private async void btnDeleteChiThiMau_Click(object sender, EventArgs e)
+        {
+            bool result = await _chithisanxuatService.DeleteChiThiMauById(Id_Chithichitiet);
+            if (result)
+            {
+
+                MaterialMessageBox.Show("Xóa chỉ thị thành công!");
+
+                _chithisanxuatService.ReloadDataGridView_ChiThiMau(dgvListChiThiMau);
+
+                dgvChiThiMau_ChiTiet.DataSource = null;
+                txtLineName.Text = "";
+                txtModelName.Text = "";
+
+                btnSave_Update.Visible = false;
+                btnXacNhan.Enabled = false;
+                btnDeleteChiThiMau.Enabled = false;
+            }
+            
         }
     }
 }

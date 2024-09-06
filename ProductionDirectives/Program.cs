@@ -17,7 +17,7 @@ namespace ProductionDirectives
 
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                .AddJsonFile("appSettings.json", optional: true, reloadOnChange: true);
 
             IConfiguration configuration = builder.Build();
             

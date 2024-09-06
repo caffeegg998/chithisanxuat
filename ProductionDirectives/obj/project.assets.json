@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "EPPlus/7.3.0": {
         "type": "package",
         "dependencies": {
@@ -850,6 +863,19 @@
           }
         }
       },
+      "RestSharp/112.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "ScottPlot/5.0.37": {
         "type": "package",
         "dependencies": {
@@ -1354,6 +1380,37 @@
     }
   },
   "libraries": {
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+      ]
+    },
     "EPPlus/7.3.0": {
       "sha512": "WucOmVncLmvplLkjF/hI0R7ZT1XKnJFTZzInzuOkdLbMqrEvc6zUncZRGuSSeKvkiUQSpaPG+gTjl+1S4Jc7tQ==",
       "type": "package",
@@ -2688,6 +2745,31 @@
         "opentk.glcontrol.nuspec"
       ]
     },
+    "RestSharp/112.0.0": {
+      "sha512": "vezxJ6DLk0eDx+rmXwVHQvJ3elZCJfnLd8neRrkA+IvTs9falf2CEAolsjI1YKkkHTOvG13xWTnHK7gU0zgaaw==",
+      "type": "package",
+      "path": "restsharp/112.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.112.0.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "ScottPlot/5.0.37": {
       "sha512": "d5jkB/eHbyjL1+gKPQGHhnmif/sOaJAhmqQg21dE3/tzgIvpu5r6JZPUpmV6TxB5f0q35zm0j9wKn2Xl4zIy5w==",
       "type": "package",
@@ -3532,6 +3614,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "BCrypt.Net-Next >= 4.0.3",
       "EPPlus >= 7.3.0",
       "MaterialSkin.2 >= 2.3.1",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
@@ -3542,24 +3625,25 @@
       "Microsoft.Extensions.Configuration.Json >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
+      "RestSharp >= 112.0.0",
       "ScottPlot >= 5.0.37",
       "ScottPlot.WinForms >= 5.0.37"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\onedi\\.nuget\\packages\\": {}
+    "D:\\Users\\v155630\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
+      "projectUniqueName": "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
       "projectName": "ProductionDirectives",
-      "projectPath": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
-      "packagesPath": "C:\\Users\\onedi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onedi\\OneDrive\\Desktop\\chithisanxuat-dev\\ProductionDirectives\\obj\\",
+      "projectPath": "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\ProductionDirectives.csproj",
+      "packagesPath": "D:\\Users\\v155630\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\v155630\\Desktop\\chithisanxuat-dev\\chithisanxuat-dev\\ProductionDirectives\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\onedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\v155630\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3567,7 +3651,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\Users\\v155630\\.nuget": {},
+        "D:\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3580,17 +3665,16 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "EPPlus": {
             "target": "Package",
             "version": "[7.3.0, )"
@@ -3635,6 +3719,10 @@
             "target": "Package",
             "version": "[8.0.4, )"
           },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[112.0.0, )"
+          },
           "ScottPlot": {
             "target": "Package",
             "version": "[5.0.37, )"
@@ -3663,7 +3751,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

@@ -33,7 +33,8 @@ namespace ProductionDirectives
                     pndbRepository => new QuanLyChiThi(pndbRepository));
             //services.AddTransient<IScanLinhkienFuji, ImplementScanLinhKienFuji>();
             services.AddTransient<IChiThiSanXuat, ImplementChiThiSanXuat>();
-            services.AddTransient<IChithisanxuatService,ImplementChithisanxuatService>();  
+            services.AddTransient<IChithisanxuatService,ImplementChithisanxuatService>();
+      
             services.AddTransient<MainForm>();
 
         }

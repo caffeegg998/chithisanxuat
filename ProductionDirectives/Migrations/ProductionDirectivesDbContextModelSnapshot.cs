@@ -28,11 +28,6 @@ namespace ProductionDirectives.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(21)
-                        .HasColumnType("character varying(21)");
-
                     b.Property<string>("LineName")
                         .IsRequired()
                         .HasColumnType("text");
@@ -50,10 +45,6 @@ namespace ProductionDirectives.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ChiThiMaus");
-
-                    b.HasDiscriminator().HasValue("ChiThiMau");
-
-                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("ProductionDirectives.Models.ChiThiMau_ChiTiet", b =>
@@ -95,6 +86,46 @@ namespace ProductionDirectives.Migrations
                     b.ToTable("ChiThiMau_ChiTiets");
                 });
 
+            modelBuilder.Entity("ProductionDirectives.Models.ChiThiPheDuyet", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreateAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("LineName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ModelName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("PICCreate")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Shift")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("TotalStage")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TotalStep")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("isDandory_Done")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PICCreate");
+
+                    b.ToTable("ChiThiPheDuyets");
+                });
+
             modelBuilder.Entity("ProductionDirectives.Models.ChiThiPheDuyet_ChiTiet", b =>
                 {
                     b.Property<Guid>("Id")
@@ -122,6 +153,9 @@ namespace ProductionDirectives.Migrations
                     b.Property<int>("NumberOrder")
                         .HasColumnType("integer");
 
+                    b.Property<Guid?>("PICCheckId")
+                        .HasColumnType("uuid");
+
                     b.Property<bool>("Result")
                         .HasColumnType("boolean");
 
@@ -138,6 +172,10 @@ namespace ProductionDirectives.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Id_ChiThiPheDuyet");
+
+                    b.HasIndex("PICCheckId");
 
                     b.ToTable("ChiThiPheDuyet_ChiTiets");
                 });
@@ -176,24 +214,39 @@ namespace ProductionDirectives.Migrations
                     b.ToTable("ChiThi_Templates");
                 });
 
-            modelBuilder.Entity("ProductionDirectives.Models.ChiThiPheDuyet", b =>
+            modelBuilder.Entity("ProductionDirectives.Models.NguoiDung", b =>
                 {
-                    b.HasBaseType("ProductionDirectives.Models.ChiThiMau");
-
-                    b.Property<DateTime>("CreateAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("PICCreate")
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Shift")
+                    b.Property<string>("Code")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("isDandory_Done")
-                        .HasColumnType("boolean");
+                    b.Property<string>("First")
+                        .IsRequired()
+                        .HasColumnType("text");
 
-                    b.HasDiscriminator().HasValue("ChiThiPheDuyet");
+                    b.Property<string>("Grade")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Last")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Section")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NguoiDungs");
                 });
 
             modelBuilder.Entity("ProductionDirectives.Models.ChiThiMau_ChiTiet", b =>
@@ -207,9 +260,50 @@ namespace ProductionDirectives.Migrations
                     b.Navigation("ChiThiMau");
                 });
 
+            modelBuilder.Entity("ProductionDirectives.Models.ChiThiPheDuyet", b =>
+                {
+                    b.HasOne("ProductionDirectives.Models.NguoiDung", "PICCreateNguoiDung")
+                        .WithMany("ChiThiPheDuyets")
+                        .HasForeignKey("PICCreate")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("PICCreateNguoiDung");
+                });
+
+            modelBuilder.Entity("ProductionDirectives.Models.ChiThiPheDuyet_ChiTiet", b =>
+                {
+                    b.HasOne("ProductionDirectives.Models.ChiThiPheDuyet", "ChiThiPheDuyet")
+                        .WithMany("ChiThiPheDuyet_ChiTiets")
+                        .HasForeignKey("Id_ChiThiPheDuyet")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProductionDirectives.Models.NguoiDung", "PICCheck")
+                        .WithMany("ChiThiPheDuyetChiTiets")
+                        .HasForeignKey("PICCheckId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("ChiThiPheDuyet");
+
+                    b.Navigation("PICCheck");
+                });
+
             modelBuilder.Entity("ProductionDirectives.Models.ChiThiMau", b =>
                 {
                     b.Navigation("ChiTiets");
+                });
+
+            modelBuilder.Entity("ProductionDirectives.Models.ChiThiPheDuyet", b =>
+                {
+                    b.Navigation("ChiThiPheDuyet_ChiTiets");
+                });
+
+            modelBuilder.Entity("ProductionDirectives.Models.NguoiDung", b =>
+                {
+                    b.Navigation("ChiThiPheDuyetChiTiets");
+
+                    b.Navigation("ChiThiPheDuyets");
                 });
 #pragma warning restore 612, 618
         }
